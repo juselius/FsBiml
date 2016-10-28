@@ -6,8 +6,8 @@
     "compile": {
       "includeFiles": [
         "Xml.fs",
-        "Attrs.fs",
-        "Biml.fs"
+        "Attr.fs",
+        "Element.fs"
       ]
     }
   },

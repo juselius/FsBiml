@@ -1,4 +1,4 @@
-namespace FsBIML
+namespace FsBiml
 
 // minimal xml combinator library
 module Xml =
