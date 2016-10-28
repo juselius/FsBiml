@@ -47,7 +47,9 @@
     <Compile Include="Xml.fs" />
     <Compile Include="Attr.fs" />
     <Compile Include="Element.fs" />
-    <None Include="Script.fsx" />
+    <None Include="example.fsx" />
+    <None Include="generate.sh" />
+    <Content Include="paket.references" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
@@ -72,4 +74,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <Import Project="..\.paket\paket.targets" />
 </Project>
