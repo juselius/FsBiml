@@ -4,8 +4,8 @@ FsBiml is a simple combinator library for generating BIML XML output. The
 library is heavily inspired by the ``WebSharper`` HTML combinators and
 ``Haskell Blaze`` library.
 
-The library allows users to generate BIML output in a clean, compact and 
-typesafe manner. 
+The library allows users to generate BIML output in a clean, compact and
+typesafe manner.
 
 ## Install
 
@@ -18,6 +18,8 @@ $ .paket/paket.bootstrapper.exe
 $ .paket/paket.exe install
 $ xbuild /p:Configuration=Release
 ```
+**Note**: Under Windows the F# compiler (``fsc.exe 14.0.23413.0``)
+receives a stack overflow exception when compiling in ``Debug`` mode.
 
 ## Example
 Copy and paste into F# Interactive (``fsi.exe`` or ``fsharpi``):
