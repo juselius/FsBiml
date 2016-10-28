@@ -1,4 +1,4 @@
-#r "bin/Release/FsBiml.dll"
+#r "bin/Release/FsBiml.Library.dll"
 
 open FsBiml
 open FsBiml.Element
