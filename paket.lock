@@ -1,0 +1,8 @@
+FRAMEWORK: >= NET45
+NUGET
+  remote: http://api.nuget.org/v3/index.json
+    FAKE (4.42)
+    FSharp.Core (4.0.0.1)
+    FSharp.Data (2.3.2)
+    Mono.Cecil (0.9.6.4)
+    SQLProvider (1.0.36)
